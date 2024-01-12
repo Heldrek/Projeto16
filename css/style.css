@@ -302,6 +302,12 @@ section.sessao1 a:hover{
     font-family:'Open Sans';
 }
 
+/* Sessão3 page2 */
+
+.sessao3-page2 .container{
+    
+}
+
 @media screen and (max-width:1200px){
 
     section.sessao1 .container{
@@ -352,7 +358,6 @@ section.sessao1 a:hover{
         font-size:60px;
     }
 
-        
     .box1-sessao2-page2{
         flex: 1 1 50%;
         margin-bottom:60px;
