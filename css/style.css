@@ -237,7 +237,7 @@ section.sessao1 a:hover{
  .content h2{
     font-size: 96px;
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', 'sans-serif';
  }
 
  .content a{
@@ -265,6 +265,41 @@ section.sessao1 a:hover{
     background-image: url('../images/img4.jpg');
     background-position: center;
     background-size: cover;
+}
+
+/* Sessão2 page2 */
+
+.sessao2-page2{
+    padding: 80px 2% 50px 2%;
+}
+
+.sessao2-page2 .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box1-sessao2-page2{
+    flex: 1;
+    padding:0 20px;
+}
+
+.box1-sessao2-page2 span{
+    width: 25px;
+    height: 4px;
+    background-color: #FF3434;
+    display: block;
+}
+
+.box1-sessao2-page2 h2{
+    font-size: 24px;
+    font-family: 'Oswald', 'sans-serif';
+    margin-top: 15px;
+}
+
+.box1-sessao2-page2 p{
+    color:#808080;
+    margin-top: 15px;
+    font-family:'Open Sans';
 }
 
 @media screen and (max-width:1200px){
@@ -317,6 +352,11 @@ section.sessao1 a:hover{
         font-size:60px;
     }
 
+    .box1-sessao2-page2{
+        flex: 1 1 50%;
+        margin-bottom:60px;
+    }
+
 }
 
 @media screen and (max-width:768px){
@@ -352,6 +392,10 @@ section.sessao1 a:hover{
     .img1-sessao1-page2{
         flex: 1 1 100%;
         height: 557px;
+    }
+
+    .box1-sessao2-page2{
+        flex: 1 1 100%;
     }
 }
 
