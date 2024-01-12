@@ -216,6 +216,7 @@ section.sessao1 a:hover{
     height: 670px;
     background-color: #418AAD;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
  }
