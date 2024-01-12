@@ -216,6 +216,7 @@ section.sessao1 a:hover{
     height: 670px;
     background-color: #418AAD;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
  }
@@ -226,11 +227,12 @@ section.sessao1 a:hover{
     align-items: center;
     background-color: purple;
     flex: 1 1 1280px;
-    margin:initial;
+    margin: initial;
  }
 
  .content{
-    flex: 1 1 40%;
+    width: 40%;
+    flex: 1 1 auto;
  }
 
  .content h2{
@@ -254,7 +256,8 @@ section.sessao1 a:hover{
  }
 
  .img1-sessao1-page2{
-    flex: 1 1 60%;
+    width:400px;
+    flex: 1 1 557px;
     height:100%;
     padding: 30px 0 30px 30px;
  }
